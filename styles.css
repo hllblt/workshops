@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+
+.container {
+    float: left;
+    max-width: 1600;
+    width: 90%;
+    border: 2px solid palevioletred;
+    padding: 30px;
+    margin: 50px;
+
+}
+
+#divresim {
+    width: 35%;
+    border: 2px solid green;
+    display: inline-block;
+    margin: 5%;
+    height: 300px;
+    vertical-align: top;
+}
+
+#imgg {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    /* margin-bottom: -4px; */
+    border: none;
+}
+
+#text {
+    width: 35%;
+    display: inline-block;
+    margin-left: 5%;
+    vertical-align: top;
+    margin: 5%;
+}
